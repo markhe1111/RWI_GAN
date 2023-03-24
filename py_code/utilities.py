@@ -89,10 +89,6 @@ def renormalization (norm_data, norm_parameters):
 
 
 
-
-
- 
-
 def xavier_init(size):
   '''Xavier initialization.
   
