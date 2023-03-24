@@ -4,7 +4,7 @@
  #tf.disable_v2_behavior()
 # https://github.com/Mohammad-Rahmdel/WassersteinGAN-GradientPenalty-Tensorflow/blob/master/WGAN-GP_MNIST.ipynb
  
-def WRINN  (data_x, data_m,  parameters):
+def GRWINN  (data_x, data_m,  parameters):
     
     colmeans = np.nanmean(data_x, axis = 0)
     p = len(colmeans)
